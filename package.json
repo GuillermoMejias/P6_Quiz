@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "heroku local:start",
+    "start": "node ./bin/www",
     "super": "supervisor ./bin/www",
     "start_old": "node ./bin/www",
-    "migrate_local": "sequelize db:migrate --url sqlite://$(pwd)/quiz.sqlite",
-    "seed_local": "sequelize db:seed:all --url sqlite://$(pwd)/quiz.sqlite",
+    "migrate_local": "sequelize db:migrate --url sqlite://%cd%/quiz.sqlite",
+    "seed_local": "sequelize db:seed:all --url sqlite://%cd%/quiz.sqlite",
     "open_heroku": "heroku open",
     "migrate_heroku": "heroku run ./node_modules/.bin/sequelize db:migrate --url \\$DATABASE_URL",
     "seed_heroku": "heroku run ./node_modules/.bin/sequelize db:seed:all --url \\$DATABASE_URL",
@@ -33,8 +33,9 @@
     "morgan": "~1.9.0",
     "pg": "7.4.0",
     "sequelize": "^4.37.5",
-    "sequelize-cli": "^4.0.0",
+    "sequelize-cli": "^3.2.0",
     "serve-favicon": "~2.4.5",
+    "sqlite": "^2.9.2",
     "supervisor": "^0.12.0"
   },
   "devDependencies": {
