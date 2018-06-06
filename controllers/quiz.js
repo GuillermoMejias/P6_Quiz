@@ -41,7 +41,7 @@ exports.load = (req, res, next, quizId) => {
 exports.adminOrAuthorRequired = (req, res, next) => {
 
     const isAdmin  = !!req.session.user.isAdmin;
-    const isAuthor = req.quiz.authorId === req.session.user.id;
+    const isAuthor = req.tip.authorId === req.session.user.id;
 
     if (isAdmin || isAuthor) {
         next();
