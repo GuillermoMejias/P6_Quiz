@@ -1,4 +1,4 @@
-const path = require('path');
+    const path = require('path');
 
 // Load ORM
 const Sequelize = require('sequelize');
@@ -36,6 +36,10 @@ quiz.hasMany(tip);
 // Relation 1-to-N between User and Quiz:
 user.hasMany(quiz, {foreignKey: 'authorId'});
 quiz.belongsTo(user, {as: 'author', foreignKey: 'authorId'});
+
+//Relacion 1-N user y tip
+    user.hasMany(tip, {foreignKey: 'authorId'});
+    tip.belongsTo(user, {as: 'author', foreignKey: 'authorId'});
 
 
 module.exports = sequelize;

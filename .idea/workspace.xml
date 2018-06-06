@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63117963-a885-43f8-9e39-4544b4853bed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quizzes.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/tip.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/tip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quizzes.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/tips/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/tips/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -20,19 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="quiz.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/quiz.js">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/tips/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-450">
-              <caret line="168" column="19" lean-forward="true" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1683" />
+            <state relative-caret-position="145">
+              <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -41,6 +48,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pwd</find>
+      <find>tip</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -49,8 +57,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/controllers/quiz.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/../P6/eros/P6_Quiz/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/migrations/20180605172704-AddAuthorIdToTipsTable.js" />
+        <option value="$PROJECT_DIR$/models/index.js" />
+        <option value="$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/migrations/20180523184402-AddAuthorIdToTipsTable.js" />
+        <option value="$PROJECT_DIR$/migrations/20171210110100-AddAcceptedToTipsTable.js" />
+        <option value="$PROJECT_DIR$/controllers/tip.js" />
+        <option value="$PROJECT_DIR$/controllers/quiz.js" />
+        <option value="$PROJECT_DIR$/migrations/20180605184811-AddAuthorIdToTipsTable.js" />
+        <option value="$PROJECT_DIR$/views/tips/index.ejs" />
       </list>
     </option>
   </component>
@@ -77,60 +94,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="quiz_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz_2018_copia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz_2018_copia" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="quiz_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz_2018_copia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz_2018_copia" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quiz_2018_copia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz_2018_copia" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="quiz_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz_2018_copia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz_2018_copia" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="quiz_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz_2018_copia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz_2018_copia" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="quiz_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz_2018_copia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz_2018_copia" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="quiz_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="seeders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="quiz_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz_2018_copia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz_2018_copia" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="quiz_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quiz_2018" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz_2018_copia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quiz_2018_copia" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="quizzes" type="462c0819:PsiDirectoryNode" />
+              <item name="tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="authorID&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P6/P6_Quiz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
@@ -161,17 +179,25 @@
       <workItem from="1527934809798" duration="4410000" />
       <workItem from="1527940764423" duration="606000" />
       <workItem from="1527950691544" duration="1151000" />
+      <workItem from="1527954508139" duration="132000" />
+      <workItem from="1527954665280" duration="222000" />
+      <workItem from="1527956218505" duration="2821000" />
+      <workItem from="1527960206696" duration="930000" />
+      <workItem from="1528021964292" duration="342000" />
+      <workItem from="1528216710646" duration="1224000" />
+      <workItem from="1528218578677" duration="6528000" />
+      <workItem from="1528280300357" duration="4120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5222000" />
+    <option name="totallyTimeSpent" value="21552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3611473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1916558" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -179,7 +205,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32914925" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -198,16 +224,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controllers/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3655">
-          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -257,23 +273,29 @@
     <entry file="file://$PROJECT_DIR$/../eros/P6_Quiz/package.json" />
     <entry file="file://$PROJECT_DIR$/views/quizzes/random_result.ejs" />
     <entry file="file://$PROJECT_DIR$/views/quizzes/random_play.ejs" />
-    <entry file="file://$PROJECT_DIR$/seeders/20171207091903-FillUsersTable.js">
+    <entry file="file://$PROJECT_DIR$/../P6/eros/P6_Quiz/models/quiz.js" />
+    <entry file="file://$PROJECT_DIR$/views/quizzes/new.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20171206164730-CreateQuizzesTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../P6/eros/P6_Quiz/controllers/quiz.js" />
+    <entry file="file://$PROJECT_DIR$/../P6/eros/P6_Quiz/models/index.js" />
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/../P6/eros/P6_Quiz/package.json" />
+    <entry file="file://$PROJECT_DIR$/seeders/20171206170833-FillQuizzesTable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20180605172704-AddAuthorIdToTipsTable.js" />
+    <entry file="file://$PROJECT_DIR$/views/quizzes/show.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/models/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -283,29 +305,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../P6/eros/P6_Quiz/models/quiz.js">
+    <entry file="file://$PROJECT_DIR$/views/quizzes/play.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../P6/eros/P6_Quiz/models/index.js">
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/controllers/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/controllers/tip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/models/tip.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tip.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seeders/20171207091903-FillUsersTable.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/seeders/20171207091903-FillUsersTable.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20171210093900-AddAuthorIdToQuizzesTable.js" />
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/migrations/20180523184402-AddAuthorIdToTipsTable.js" />
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20171210110100-AddAcceptedToTipsTable.js" />
+    <entry file="file://$PROJECT_DIR$/migrations/20171210123900-AddAuthorIdToQuizzesTable.js" />
+    <entry file="file://$PROJECT_DIR$/views/tips/new.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/controllers/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20180523184402-AddAuthorIdToTipsTable.js" />
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/migrations/20171210093900-AddAuthorIdToQuizzesTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130" />
+        <state relative-caret-position="561">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/quizzes/new.ejs">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-977" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/tip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1683" />
+        <state relative-caret-position="315">
+          <caret line="115" column="36" lean-forward="true" selection-start-line="115" selection-start-column="36" selection-end-line="115" selection-end-column="36" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="168" column="19" lean-forward="true" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+        <state relative-caret-position="553">
+          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive - Universidad Politécnica de Madrid/Teleco/3º/CORE/Quiz_2018 final/P6/eros/P6_Quiz/migrations/20171210110100-AddAcceptedToTipsTable.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20180605184811-AddAuthorIdToTipsTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20171206164730-CreateQuizzesTable.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="67" column="15" lean-forward="true" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../danielson/P6_Quiz/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tips/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
